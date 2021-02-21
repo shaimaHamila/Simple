@@ -1,0 +1,476 @@
+/*Header*/
+body{
+    margin: 0px;
+    margin-bottom: 0px;
+
+}
+/*Top bar of coupon*/
+.coupon{
+    background-color: #1E1E1E ;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+header .coupon h4{
+    margin-top: 0px;
+    padding: 10px 0px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*End Top bar of coupon*/
+
+header .logo{
+    display: flex;
+    justify-content: space-around;
+}
+header .logo .icon a{
+    color: #333641;
+    padding: 0px 8px;
+    font-size: 19px;
+}
+header .logo .icon {
+    margin-top: 35px;
+  
+}
+header .logo .icon a :hover{
+    color: #929292;
+}
+header .logo .title h1{
+    font-family: Old Standard TT;
+    font-size: 49px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 100;
+    padding-left: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+header .search-bg .search{
+    padding: 6px 0px 6px 12px;
+    background-color: transparent;
+    min-height: 40px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.8;
+    border: 0px;
+
+}
+header .search-bg {
+    background-color: #fafafa;
+    height: 40px;
+    margin-top: 20px;
+    width: 200px;
+}
+header .logo .search-bg form i{
+ color: #d3d3d3;
+ padding: 12px;
+}
+header .logo .search-bg form {
+    display: flex;
+    
+}
+/*Menu*/
+header .menu ul li{
+    display: inline-block;
+    margin: 20px 25px;
+    font-size: 12px;
+    font-family: "montserrat";
+}
+header .menu ul{
+    text-align: center;
+    background-color: #fafafa ;
+    margin-bottom: 0px;
+}
+header .menu ul li a{
+    text-decoration: none;
+    color: #555555;
+}
+header .menu ul li :hover{
+    text-decoration: underline;
+}
+header .menu ul li[class="i"] {
+    font-size: 16px;
+}
+header .menu ul li[class="i"] :hover{
+    color: #929292;
+    text-decoration: none;
+}
+/*End Menu*/
+/*End header*/
+
+/*Main*/
+/*New arrivals*/
+main .new-arrivals{
+    background-image: url(../Img/homepage/business-suit-690048_1920.jpg)  ;
+    background-size: cover;
+    background-position: right;
+    padding: 200px;
+
+}
+main .new-arrivals h1{
+    font-size: 47px;
+    width: 600px;
+    letter-spacing: 3.2px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "montserrat";
+    line-height: 1.2em;
+    color: #ffffff;
+    padding-left: 450px;
+    margin: 10px auto;
+}
+/*submit*/
+main .new-arrivals a input{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: transparent ;
+    padding: 10px 26px;
+    border: solid 1px #ffffff ;
+    cursor: pointer;
+}
+main .new-arrivals a{
+    margin-left: 700px;
+}
+main .new-arrivals a :hover{
+    background-color: #ffffff;
+    border-color: #333641;
+    color: #333641;
+}
+/*End submit*/
+
+/**End new arrivals/
+
+/*heading-title*/
+main .heading-title h2{
+    margin-top: 30px;
+    text-align: center;
+    font-family: "montserrat";
+    font-size: 20px;
+    color: #000000;
+    font-weight: 300;
+}
+/*End heading-title*/
+/*shoes-and-shirt*/
+main .shoes-and-shirt img{
+    width: 550px;
+    height: 550px;
+    margin-top: 40px;
+}
+main .shoes-and-shirt{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 50px;
+}
+main .shoes-and-shirt h2{
+    font-family: "montserrat";
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+}
+main .shoes-and-shirt p{
+    color: #333641;
+    font-family: "montserrat";
+    font-size: 14px;
+}
+/*submit*/
+main .shoes-and-shirt a input{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333641;
+    background-color: #ffffff ;
+    padding: 10px 26px;
+    border-width: 1px;
+    cursor: pointer;
+    border-color: #333641;
+
+}
+main .shoes-and-shirt a :hover{
+    background-color: #000000;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+/*End submit*/
+/*End shoes-and-shirt*/
+
+/*Business suits*/
+main .business-suits{
+    background-image: url(../Img/homepage/black-and-white-2558273_1920.jpg)  ;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+
+}
+main .container {
+    width: 600px;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 650px;
+    padding-top:300px ;
+}
+main .business-suits h2{
+    font-size: 20px;
+    font-family: "montserrat";
+    font-weight: 400;
+    line-height: 1;
+}
+main .business-suits p{
+    font-size: 14px;
+    font-family: "montserrat";
+}
+/*submit*/
+main .business-suits a input{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: transparent ;
+    padding: 10px 26px;
+    border: solid 1px #ffffff ;
+    cursor: pointer;
+    color: #ffffff;
+}
+main .business-suits a :hover{
+    background-color: #ffffff;
+    border-color: #333641;
+    color: #333641;
+}
+/*End submit*/
+/*End Business suits*/
+
+/*Belts and Ties*/
+main .belts-and-ties img{
+    width: 550px;
+    height: 350px;
+    margin-top: 40px;
+}
+main .belts-and-ties{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 50px;
+}
+main .belts-and-ties h2{
+    font-family: "montserrat";
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+}
+main .belts-and-ties p{
+    color: #333641;
+    font-family: "montserrat";
+    font-size: 14px;
+}
+/*submit*/
+main .belts-and-ties a input{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333641;
+    background-color: #ffffff ;
+    padding: 10px 26px;
+    border-width: 1px;
+    cursor: pointer;
+    border-color: #333641;
+
+}
+main .belts-and-ties a :hover{
+    background-color: #000000;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+/*End submit*/
+/*End Belts and Ties*/
+
+/*Entry-inner*/
+main .entry-inner ul li img{
+    width: 300px;
+    height: 350px;
+}
+main .entry-inner .entry-inner-img :hover{
+    opacity: 0.9;
+}
+main .entry-inner ul{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+main .entry-inner ul li a{
+    text-decoration: none;
+    margin-bottom: 1px;
+    margin-top: 1px;
+
+
+}
+main .entry-inner ul li a p{
+    color: #999999;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-style: italic;
+    margin-bottom: 1px;
+    margin-top: 10px;
+
+}
+main .entry-inner ul li a :hover{
+    color: #333641;
+}
+main .entry-inner ul li a h4{
+font-size: 14px;
+line-height: 1.5;
+color: #333333;
+margin-bottom: 1px;
+margin-top: 10px;
+}
+main .entry-inner ul li h3{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333641;
+    font-weight: 500;
+}
+
+/*submit*/
+main .entry-inner a input{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333641;
+    background-color: #ffffff ;
+    padding: 5px 12px;
+    border-width: 1px;
+    cursor: pointer;
+    border-color: #333641;
+
+}
+main .entry-inner .Select-options :hover{
+    background-color: #000000;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+/*End submit*/
+/*End Entry-inner*/
+/*simple-stor*/
+main .simple-stor{
+    background-color: #fafafa;
+    width: 45%;
+    text-align: center;
+    margin: 150px 26% 130px;
+    padding: 30px;
+}
+main .simple-stor h1{
+    color: #333641;
+    font-size: 36px;
+    font-family: Old Standard TT;
+    font-weight: 400;
+    line-height: 1
+}
+main .simple-stor p{
+    font-size: 14px;
+    font-family: "montserrat";
+    color: #333641;
+    font-weight: 300 ;
+    letter-spacing: 0px;
+    line-height: 1.8;
+
+}
+
+/*submit*/
+main .simple-stor a input{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #333641 ;
+    padding: 10px 26px;
+    border-width: 1px;
+    cursor: pointer;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+main .simple-stor a :hover{
+    background-color: #ffffff;
+    border-color: #333641;
+    color: #333641;
+
+}
+/*End submit*/
+/*End simple-stor*/
+main .pg{
+    display: flex;
+    justify-content: space-between;
+}
+main .pg div{
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    text-align: center;
+}
+main .pg div h2{
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 0px;
+}
+main .pg div p{
+    font-size: 14px;
+    font-family: "montserrat";
+    color: #333641;
+    font-weight: 300 ;
+    letter-spacing: 0px;
+    line-height: 1.8;
+}
+/*End main*/
+
+/*Footer*/
+footer{
+    text-align: center;
+    background-color: #fafafa;
+
+}
+footer h6{
+    margin: 0px auto 50px auto;
+    padding-top: 70px;
+    color: #333641;
+    font-size: 14px;
+    font-family: "montserrat";
+    font-weight: 400 ;
+    letter-spacing: 1.5px;
+}
+footer h6 a{
+    text-decoration: none;
+    color: #333641;
+}
+footer p{
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: "montserrat";
+    color: #333641;
+    font-weight: 400 ;
+    letter-spacing: 0px;
+    line-height: 1.8;
+    margin-bottom: 50px;
+}
+
+footer .icon a{
+    color: #333641;
+    padding: 13px;
+    font-size: 26px;
+}
+footer .icon{
+    margin-bottom: 100px;
+}
+footer .icon a:hover{
+    color: #818A91;
+    
+}
+footer .date{
+    font-family: "montserrat";
+    color: #333641;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+/*End footer*/
+
+/*The end 🥰🥰🥰🥰🥰🥰😁😁😁😁😁/ by chaima hamila */
