@@ -1,0 +1,232 @@
+/*Header*/
+body{
+    margin: 0px;
+    margin-bottom: 0px;
+
+}
+/*Top bar of coupon*/
+.coupon{
+    background-color: #1E1E1E ;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+header .coupon h4{
+    margin-top: 0px;
+    padding: 10px 0px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*End Top bar of coupon*/
+
+header .logo{
+    display: flex;
+    justify-content: space-around;
+}
+header .logo .icon a{
+    color: #333641;
+    padding: 0px 8px;
+    font-size: 19px;
+}
+header .logo .icon {
+    margin-top: 35px;
+  
+}
+header .logo .icon a :hover{
+    color: #929292;
+}
+header .logo .title h1{
+    font-family: Old Standard TT;
+    font-size: 49px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 100;
+    padding-left: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+header .search-bg .search{
+    padding: 6px 0px 6px 12px;
+    background-color: transparent;
+    min-height: 40px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.8;
+    border: 0px;
+
+}
+header .search-bg {
+    background-color: #fafafa;
+    height: 40px;
+    margin-top: 20px;
+    width: 200px;
+}
+header .logo .search-bg form i{
+ color: #d3d3d3;
+ padding: 12px;
+}
+header .logo .search-bg form {
+    display: flex;
+    
+}
+/*Menu*/
+header .menu ul li{
+    display: inline-block;
+    margin: 20px 25px;
+    font-size: 12px;
+    font-family: "montserrat";
+}
+header .menu ul{
+    text-align: center;
+    background-color: #fafafa ;
+    margin-bottom: 0px;
+}
+header .menu ul li a{
+    text-decoration: none;
+    color: #555555;
+}
+header .menu ul li :hover{
+    text-decoration: underline;
+}
+header .menu ul li[class="i"] {
+    font-size: 16px;
+}
+header .menu ul li[class="i"] :hover{
+    color: #929292;
+    text-decoration: none;
+}
+/*End Menu*/
+/*End header*/
+
+
+
+/*Entry-inner*/
+main .entry-inner ul li img{
+    width: 250px;
+    height: 300px;
+}
+main .entry-inner .entry-inner-img :hover{
+    opacity: 0.9;
+}
+main{
+    margin:auto;
+    width: 90%;
+    
+}
+main .entry-inner ul{
+    list-style: none;
+    padding-top: 20px;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    text-align: center;
+    
+}
+main .entry-inner ul li{
+    padding: 10px;
+    margin-bottom: 50px;
+}
+main .entry-inner ul li a{
+    text-decoration: none;
+    margin-bottom: 1px;
+    margin-top: 1px;
+
+
+}
+main .entry-inner ul li a p{
+    color: #999999;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-style: italic;
+    margin-bottom: 1px;
+    margin-top: 10px;
+
+}
+main .entry-inner ul li a :hover{
+    color: #333641;
+}
+main .entry-inner ul li a h4{
+font-size: 14px;
+line-height: 1.5;
+color: #333333;
+margin-bottom: 1px;
+margin-top: 10px;
+}
+main .entry-inner ul li h3{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333641;
+    font-weight: 500;
+}
+
+/*submit*/
+main .entry-inner a input{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333641;
+    background-color: #ffffff ;
+    padding: 5px 12px;
+    border-width: 1px;
+    cursor: pointer;
+    border-color: #333641;
+
+}
+main .entry-inner .Select-options :hover{
+    background-color: #000000;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+/*End submit*/
+/*End Entry-inner*/
+
+
+/*Footer*/
+footer{
+    text-align: center;
+    background-color: #fafafa;
+
+}
+footer h6{
+    margin: 0px auto 50px auto;
+    padding-top: 70px;
+    color: #333641;
+    font-size: 14px;
+    font-family: "montserrat";
+    font-weight: 400 ;
+    letter-spacing: 1.5px;
+}
+footer h6 a{
+    text-decoration: none;
+    color: #333641;
+}
+footer p{
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: "montserrat";
+    color: #333641;
+    font-weight: 400 ;
+    letter-spacing: 0px;
+    line-height: 1.8;
+    margin-bottom: 50px;
+}
+
+footer .icon a{
+    color: #333641;
+    padding: 13px;
+    font-size: 26px;
+}
+footer .icon{
+    margin-bottom: 100px;
+}
+footer .icon a:hover{
+    color: #818A91;
+    
+}
+footer .date{
+    font-family: "montserrat";
+    color: #333641;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+/*End footer*/

@@ -1,0 +1,169 @@
+/*Header*/
+body{
+    margin: 0px;
+    margin-bottom: 0px;
+
+}
+/*Top bar of coupon*/
+.coupon{
+    background-color: #1E1E1E ;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+header .coupon h4{
+    margin-top: 0px;
+    padding: 10px 0px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*End Top bar of coupon*/
+
+header .logo{
+    display: flex;
+    justify-content: space-around;
+}
+header .logo .icon a{
+    color: #333641;
+    padding: 0px 8px;
+    font-size: 19px;
+}
+header .logo .icon {
+    margin-top: 35px;
+  
+}
+header .logo .icon a :hover{
+    color: #929292;
+}
+header .logo .title h1{
+    font-family: Old Standard TT;
+    font-size: 49px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 100;
+    padding-left: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+header .search-bg .search{
+    padding: 6px 0px 6px 12px;
+    background-color: transparent;
+    min-height: 40px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.8;
+    border: 0px;
+
+}
+header .search-bg {
+    background-color: #fafafa;
+    height: 40px;
+    margin-top: 20px;
+    width: 200px;
+}
+header .logo .search-bg form i{
+ color: #d3d3d3;
+ padding: 12px;
+}
+header .logo .search-bg form {
+    display: flex;
+    
+}
+/*Menu*/
+header .menu ul li{
+    display: inline-block;
+    margin: 20px 25px;
+    font-size: 12px;
+    font-family: "montserrat";
+}
+header .menu ul{
+    text-align: center;
+    background-color: #fafafa ;
+    margin-bottom: 0px;
+}
+header .menu ul li a{
+    text-decoration: none;
+    color: #555555;
+}
+header .menu ul li :hover{
+    text-decoration: underline;
+}
+header .menu ul li[class="i"] {
+    font-size: 16px;
+}
+header .menu ul li[class="i"] :hover{
+    color: #929292;
+    text-decoration: none;
+}
+/*End Menu*/
+/*End header*/
+
+/*Main*/
+main {
+    padding: 50px 80px;
+}
+main h1{
+    color: #333333;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p{
+    color: #7a7a7a;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+
+}
+/*End Main*/
+
+
+
+/*Footer*/
+footer{
+    text-align: center;
+    background-color: #fafafa;
+
+}
+footer h6{
+    margin: 0px auto 50px auto;
+    padding-top: 70px;
+    color: #333641;
+    font-size: 14px;
+    font-family: "montserrat";
+    font-weight: 400 ;
+    letter-spacing: 1.5px;
+}
+footer h6 a{
+    text-decoration: none;
+    color: #333641;
+}
+footer p{
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: "montserrat";
+    color: #333641;
+    font-weight: 400 ;
+    letter-spacing: 0px;
+    line-height: 1.8;
+    margin-bottom: 50px;
+}
+
+footer .icon a{
+    color: #333641;
+    padding: 13px;
+    font-size: 26px;
+}
+footer .icon{
+    margin-bottom: 100px;
+}
+footer .icon a:hover{
+    color: #818A91;
+    
+}
+footer .date{
+    font-family: "montserrat";
+    color: #333641;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+/*End footer*/

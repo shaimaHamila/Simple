@@ -1,0 +1,199 @@
+body{
+    margin: 0px;
+}
+
+/*Header*/
+
+header{
+    background-color:#3b5999 ;
+
+}
+header .logo h1{
+    color: white;
+    margin: 15px 150px;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 900 ;
+    float: left;
+}
+
+header div {
+    display: inline-block ;
+   
+}
+
+header form table{
+    float: right;
+    margin-left: 200px;
+}
+header form table label{
+    font-size: 12px;
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#email, #password{
+    padding: 3px 3px 4px;
+    border: solid 1px #1d2a5b;
+
+
+}
+header form table td{
+    padding: 0px 0px 0px 14px;
+    
+}
+header form table td a{
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lien1 :hover{
+    text-decoration: underline;
+
+}
+input[value="Connexion"]{
+    background-color: #4267b2;
+    border: solid 1px #29487d;
+    border-radius: 2px;
+    color: #ffff;
+    padding: 3px 6px;
+}
+input[value="Connexion"]:hover{
+    background-color: #3b5999;
+}
+#email, #password{
+    width: 140px;
+    height: 13px;
+}
+
+/*End header*/
+
+/*Main*/
+
+main{
+    background-color: #e9ebee;
+    
+}
+main div h3{
+    margin-top: 0px;
+    padding: 25px 10px 15px 100px;
+    width: 500px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main div img{
+    margin-left: 100px;
+    margin-bottom: 270px;
+    width: 500px;
+}
+.view, .formulaire{
+    display: inline-block;
+}
+main .formulaire{
+    width: 40%;
+    float: right;
+    margin-right: 100px ;
+}
+main .formulaire h1{
+    color: #333333;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+
+}
+main div h4{
+    font-size:19px ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    font-weight: 300;
+    color: #333333;
+}
+input[type="text"]{
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8 ;
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+main .input2{
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8 ;
+    font-size: 18px;
+    width: 465px;
+    margin-bottom: 10px;
+}
+main div h5{
+    color: #90949c;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0px;
+}
+main div select{
+    padding: 5px;
+    border: 1px solid #bdc7d8 ;
+    margin-right: -4px;
+    margin-left: 0px;
+}
+main div .label_radio{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main div .p1{
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main div .p2{
+    border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main div a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+main div input[type="submit"]{
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    color: #ffff;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 60px;
+    border: 1px solid rgb(80, 79, 79);
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    margin: 10px 0px;
+}
+footer{
+    width: 80%;
+    margin-left: 110px;
+    color: #385898;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    cursor: pointer;
+}
+hr{
+    border-color: #f7f7f7;
+}
+footer h6{
+    color:#737373 ;
+    font-size: 11px;
+    margin-top: 10px;
+}
