@@ -1,2 +1,2 @@
-# Simple
-# E-commerce website(Front-End) with html5 & css
+## Simple
+E-commerce website(Front-End) with html5 & css
